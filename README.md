@@ -1,1 +1,34 @@
-# Student-Insights-Dashboard
+# Student Insights Dashboard
+
+This project is a data-driven dashboard designed to analyze and visualize student performance. By examining key factors such as academic scores, attendance rates, and extracurricular activities, it provides valuable insights into the elements that influence academic success.
+
+***
+
+### 📊 Key Features
+
+* **Performance Analysis**: Analyzes student academic scores across different subjects (e.g., Math, Science, English).
+* **Correlation Discovery**: Identifies the relationship between attendance rates and overall academic performance.
+* **Extracurricular Impact**: Explores how participation in extracurricular activities correlates with academic success.
+* **Data Visualization**: Generates insightful plots including histograms, bar charts, box plots, and scatter plots to present findings clearly.
+* **Interactive Dashboard**: Includes a Power BI dashboard to allow for dynamic filtering and exploration of the data.
+
+***
+
+### 🛠️ Technologies Used
+
+-   **Python**: The core programming language for data analysis.
+-   **Pandas**: Used for data cleaning, manipulation, and analysis.
+-   **NumPy**: Utilized for numerical operations and data generation.
+-   **Matplotlib**: Employed to create static data visualizations and plots.
+-   **Power BI**: A business intelligence tool used to create an interactive dashboard for deeper insights.
+
+***
+
+### 🚀 How to Run the Project
+
+Follow these steps to set up and run the project on your local machine.
+
+#### Step 1: Clone the Repository
+
+```bash
+git clone [https://github.com/vivekmelkani16/Student-Insights-Dashboard.git](https://github.com/vivekmelkani16/Student-Insights-Dashboard.git)
