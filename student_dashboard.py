@@ -31,7 +31,6 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('student_data.csv')
 
 # --- 1. Data Cleaning and Preparation (if needed) ---
-# Check for missing values (our synthetic data has none, but it's good practice)
 print("Missing values in the dataset:")
 print(df.isnull().sum())
 
@@ -50,8 +49,6 @@ print("\nAverage Academic Score by Extracurriculars:")
 print(extracurricular_scores)
 
 # --- 3. Data Visualization ---
-
-# Set a professional style for plots
 plt.style.use('seaborn-v0_8-whitegrid')
 
 # Visualization 1: Histogram of Academic Scores
@@ -74,7 +71,7 @@ plt.show()
 plt.figure(figsize=(12, 7))
 df.boxplot(column='Academic_Score', by='Extracurriculars', grid=False, rot=0)
 plt.title('Academic Score Distribution by Extracurricular Activities', fontsize=16)
-plt.suptitle('')  # Suppress default title
+plt.suptitle('')
 plt.xlabel('Extracurricular Activities', fontsize=12)
 plt.ylabel('Academic Score', fontsize=12)
 plt.show()
